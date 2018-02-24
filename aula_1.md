@@ -1,6 +1,7 @@
 # Curso Básico de Programação - Aula 1
 ## Daniel Tiezzi
 
+### Meu primeiro programa
 
 A proposta deste curso é fornecer noções básicas de programação para pessoas com mínimo ou nenhum conhecimento de programação. Como a idéia é de fornecer um curso completamente gratuito, minha proposta é utilizar somente ferramente de código aberto, também denominadas de *open source* em inglês. Desta forma, o sistema operacional que irei me basear é o linux e a linguagem de programaçao será o C. Programas em C podem ser interpretados em qualquer sistema operacional. A maioria das versões lives do linux já vem com o interpretador / compilador do C instalados. No sistema operacional da Apple também. Caso você esteja utilizando o Windows, é necessário instalar um programa que tenha o compilador. Uma opção gratuita é o Code Blocks (<http://www.codeblocks.org>).
 
