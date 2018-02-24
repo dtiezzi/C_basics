@@ -6,14 +6,14 @@ A proposta deste curso é fornecer noções básicas de programação para pesso
 
 O compilador é um *software* que interpreta a linguagem de programação, que nós humanos compreendemos (ou iremos crompreender) e transforma ela em linguagem de computador. Como existem diversas linguagens de programação, é necessário diversos compiladores para compreeder cada uma das linguagens. Em C, iremos utilizar o compilador denominado gcc, que interpreta a linguagem em C.
 
-##O que é um programa de computador ou *software*?
+## O que é um programa de computador ou *software*?
 
 *Software* pode ser definido como uma sequência de instruções escritas em linguagem de programação e que tem o objetivo de executar tarefas específicas.
 
 Desta forma, qualquer pedaço de código que possa ser interpretado por um computador e que execute uma tarefa é por definição um *software*.
 
 
-###Escrevendo seu primeiro *software*
+### Escrevendo seu primeiro *software*
 
 Para começarmos, você precisa de duas ferramentas em seu computador para escrever o seu *software* em C e executá-lo:
 
