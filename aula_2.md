@@ -3,19 +3,19 @@
 
 ### Variáveis
 
-Nesta aula iremos falar sobre as variáveis em C e operadores básicos. Nós vimos na aula anterior dois tipos de variáveis distintos, número interiro (*int*) e caractere (*char*). Eles são chamados de **Tipos Primitivos** da linguagem. Em C temos os seguintes **Tipos prmitivos**:
+Nesta aula iremos falar sobre as variáveis em C e operadores básicos. Nós vimos na aula anterior dois tipos de variáveis distintos, número inteiro (*int*) e caractere (*char*). Eles são chamados de **Tipos Primitivos** da linguagem. Em C temos os seguintes **Tipos primitivos**:
 
-* *char*: permite guardar inflrmações de caracteres alfanuméricos;
-* *int*: de número inteiro (pertencentes aos números inteiros). Ele utiliza 2 bytes de memória, ou seja, o número interio pode variar de -32768 até +3276;
-* *float*: de números com pontos flutuantes, ou pertencentes ao números Reais. Um númeo do tipo *float* ocupa 4 bytes da memória;
+* *char*: permite guardar informações de caracteres alfanuméricos;
+* *int*: de número inteiro (pertencentes aos números inteiros). Ele utiliza 2 bytes de memória, ou seja, o número inteiro pode variar de -32768 até +3276;
+* *float*: de números com pontos flutuantes, ou pertencentes ao números Reais. Um número do tipo *float* ocupa 4 bytes da memória;
 * *double*: uma extensão do *float*. Ele aceita números flutuantes, porém com uma precisão maior que o *float* pois ele ocupa 8 bytes de memória;
-* *void*: ele representa o vazio, e é utoilizado, como dissemos na alula anterior, em situações onde uma função não retorna qualquer valor.
+* *void*: ele representa o vazio, e é utilizado, como dissemos na alula anterior, em situações onde uma função não retorna qualquer valor.
 
 Com excessão do *void*, os outros tipos primitivos podem ter modificadores que alteram o tamanho do tipo de dado. A tabela abaixo mostra todos os tipos e seus modificadores em C bem como o número de bytes de memória utilizado por cada um deles.
 
 ![Tipos primitivos e Modificadores](http://4.bp.blogspot.com/-MQeLEbM2JGc/Vg4sKlwvDrI/AAAAAAAAAHc/QTCmJq_kec8/s1600/5.jpg)
 
-Você pode estar perguntando: "O que tem é essa história de bytes?". Vou fazer um parêntese aqui para explicar. A unidade de informação do computador é o bit. Como o computador trabalha com um sistema binário, a sua unidade, o bit, pode armazenar o valor 0 ou o valor 1. Um byte corresponde a 8 bits. Desta forma, podemos armazenar oito valores 0 ou 1 em um byte. Não sei se você é familiarizado com o sistema binário. Mas todos números decimais podem ser converitdos em binário. Como existe duas possibilidades para cada bit, sendo n= númro de bits, a quantidade de valores em decimais que pode ser armazenados pelo computador é igual a 2^n. Em uma sequância de 3 bits temos 2^3 = 8. Vejamos abaixo a representação em binário de cada um dos 8 primeiros números naturais:
+Você pode estar perguntando: "O que tem é essa história de bytes?". Vou fazer um parêntese aqui para explicar. A unidade de informação do computador é o bit. Como o computador trabalha com um sistema binário, a sua unidade, o bit, pode armazenar o valor 0 ou o valor 1. Um byte corresponde a 8 bits. Desta forma, podemos armazenar oito valores 0 ou 1 em um byte. Não sei se você é familiarizado com o sistema binário. Mas todos números decimais podem ser convertidos em binário. Como existe duas possibilidades para cada bit, sendo n= número de bits, a quantidade de valores em decimais que pode ser armazenados pelo computador é igual a 2^n. Em uma sequência de 3 bits temos 2^3 = 8. Vejamos abaixo a representação em binário de cada um dos 8 primeiros números naturais:
 
 Binário  | Decimal
 :------: | :-----:
@@ -32,9 +32,9 @@ Ou seja, se um *int* utiliza dois bytes, serão 16 bits que é 2^16 = 65536 valo
 
 Mais para a  frente você poderá criar um programa que converte números decimais em binários e vice-versa. Ainda faltam alguns conceitos de programação, em especial as estruturas de repetição, para que você consiga criar este programa.
 
-E o *char*? Como é a alocaçnao de memória? Se o computador só entende 0s e 1s, como ele compreende uma letra digitada no teclado? Como vimos na tabela anterior, cada cadactere utiliza 1 byte (8 bits). Cada uma das 256 combinações possíveis de 0s e 1s determinam 256 caracteres distintos. A relação entre os valores binários e os respectivos caracteres é definada por uma padronização conhecida com código ASCII de *American Standard Code for Information Interchange*. Veja a tabela abaixo que mostra a relação entre os valores decimais de 0 a 255 com cada um dos 256 possíveis caracteres:
+E o *char*? Como é a alocação de memória? Se o computador só entende 0s e 1s, como ele compreende uma letra digitada no teclado? Como vimos na tabela anterior, cada caractere utiliza 1 byte (8 bits). Cada uma das 256 combinações possíveis de 0s e 1s determinam 256 caracteres distintos. A relação entre os valores binários e os respectivos caracteres é definida por uma padronização conhecida com código ASCII de *American Standard Code for Information Interchange*. Veja a tabela abaixo que mostra a relação entre os valores decimais de 0 a 255 com cada um dos 256 possíveis caracteres:
 
-![Tablea ASCII](http://www.theasciicode.com.ar/american-standard-code-information-interchange/ascii-codes-table.png)
+![Table ASCII](http://www.theasciicode.com.ar/american-standard-code-information-interchange/ascii-codes-table.png)
 
 Desta forma, quando digitamos a letra `A`, o computador lê `01000001`, que é o `65` em decimal. Você não precisa decorar esta tabela, logicamente. No entanto, você verá mais para a frente que ela pode ser utilizada para checar se uma letra digitada no teclado é maiúscula ou minúscula, ou pode ser utilizada para converter as letras em maiúsculas (*all caps*) por exemplo. Note que se você somar `65` + `32` = `97`. Veja na tabela que o `97` decimal e `01100001` em binário é o `a`. Desta forma, para o C, `A` + 32 = `a`.
 
@@ -73,7 +73,7 @@ Início:
 	Multiplique: número_1 e número_2;
 	Imprima:
 		A soma do número_1 e número_2 é:
-		A subtraçnso do número_1 e número_2 é:
+		A subtração do número_1 e número_2 é:
 		A divisão do número_1 e número_2 é:
 		A multiplicação do número_1 e número_2 é:
 Fim
@@ -97,7 +97,7 @@ void main(void) {
 	div= x / y;
 	mult= x * y;
 	
-	printf("A soma de %f + %f eh: %f\n", x, y, soma);	printf("A subtraçnao de %f - %f eh: %f\n", x, y, sub);
+	printf("A soma de %f + %f eh: %f\n", x, y, soma);	printf("A subtração de %f - %f eh: %f\n", x, y, sub);
 	printf("A divisão de %f / %f eh: %f\n", x, y, div);
 	printf("A soma de %f + %f eh: %f\n", x, y, mult);
 
@@ -111,13 +111,10 @@ Agora ele está pronto para rodar. Use o comando `gcc -o calculadora.out calcula
 	Digite outro número: 
 	4
 	A soma de 3.00 + 4.00 eh: 7.00
-	A subtraçnao de 3.00 - 4.00 eh: -1.00
+	A subtração de 3.00 - 4.00 eh: -1.00
 	A divisão de 3.00 / 4.00 eh: 0.75
 	A soma de 3.00 + 4.00 eh: 12.00
  
-Aqui temos uma coisa nova. Veja o `.2` entre o `%` e o `f` para a formatação do *float*. Este `.2` quer dizer ao computador para mostrar até duas casas decimais. Experimente aumentar ou memso omitir este valor. Você verá que o número de casas decimais irão aumentar no ser resultado. A outra questão aqui é, por que não usar o *int*? Lembre-se que se usarmos uma variavel inteira, a divisão também será um número inteiro. Tente experimentar.
+Aqui temos uma coisa nova. Veja o `.2` entre o `%` e o `f` para a formatação do *float*. Este `.2` quer dizer ao computador para mostrar até duas casas decimais. Experimente aumentar ou mesmo omitir este valor. Você verá que o número de casas decimais irão aumentar no ser resultado. A outra questão aqui é, por que não usar o *int*? Lembre-se que se usarmos uma variável inteira, a divisão também será um número inteiro. Tente experimentar.
 
 Bem, chegamos ao fim desta aula. **PARABÉNS!** Na próxima aula iremos aprender sobre controle de fluxo.
-
-
-
