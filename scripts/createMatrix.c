@@ -29,7 +29,7 @@ void printDiagSum(int m[ROWS][COLS]) {
 	for (int i= 0; i< ROWS; i++) {
 		for (int j= 0; j< COLS; j++) { 
 			if (i == j) {
-				sum1= sum1 + m[i][j];
+				sum1 += m[i][j];
 			}
 		}
 	}	
@@ -41,13 +41,24 @@ void printCounterDiagSum(int m[ROWS][COLS]) {
 	for (int i= 0; i< ROWS; i++) {
 		for (int j= 0; j< COLS; j++) { 
 			if ((i + j) == ((ROWS + 1)-2)) {
-				sum2= sum2 + m[i][j];
+				sum2 += m[i][j];
 			}
 		}
 	}	
 	printf("A soma da diagonal inversa é: %d\n", sum2);
 }
 
+void printOffDiagSum(int m[ROWS][COLS]) {
+	int sum3= 0;
+	for (int i= 0; i< ROWS; i++) {
+		for (int j= 0; j< COLS; j++) { 
+			if ((i != j) & ((i + j) != ((ROWS + 1)-2))) {
+				sum3 += m[i][j];
+			}
+		}
+	}	
+	printf("A soma dos números fora das diagonais é: %d\n", sum3);
+}
 
 
 void main() {
@@ -56,4 +67,5 @@ void main() {
 	printMatrix(matrix);
 	printDiagSum(matrix);
 	printCounterDiagSum(matrix);
+	printOffDiagSum(matrix);
 }
