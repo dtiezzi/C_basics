@@ -107,6 +107,7 @@ void main() {
 
 	printf("Digine o número de colunas para uma matriz quadrada: \n");
 	scanf("%d", &rows);
+	system("clear");
 	cols= rows;
 	int matrix[rows][cols];
 	createMatrix(matrix);
