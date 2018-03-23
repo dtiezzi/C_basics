@@ -7,3 +7,8 @@ int regr(int n);
 char bin(int n);
 float pow(x, y);
 
+void main (void) {
+	char s[100];
+	printf("Type a word:\n");
+	gets(s);
+}
