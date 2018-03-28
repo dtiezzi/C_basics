@@ -70,7 +70,7 @@ Agora iremos criar um novo diretório onde iremos trabalhar. O comando para cria
  
  Você deverá ver algo assim:
  
- ![nano display](http://www.linuxandubuntu.com/uploads/2/1/1/5/21152474/how-to-launch-nano-in-linux_orig.png)
+ ![nano display](http://143.107.196.146:3000/nano_screen.png)
 
  
  Caso isso não ocorra, é porque você não tem o editor *nano* instalado. Para instalar é muito fácil. Somente escreva o comando `sudo apt-get install nano`
