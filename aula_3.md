@@ -66,7 +66,7 @@ Veja que podemos combinar variáveis como operadores lógicos e relacionais para
 
 O teste **if** compara uma condição e desvia o fluxo conforme a condição seja **V** ou **F**. Veja a figura abaixo:
 
-![If statement C](http://143.107.196.146:3000/if_statement.png)
+![If statement C](http://143.107.196.146:3000/if_statement1.png)
 
 A seta define a direção do fluxo do programa. Existe um teste que verifica se uma condição é **V** ou **F**. Se **V**, um bloco de código inserido na estrutura da condicional é executado. Caso contrário, o programa desvia o fluxo e e continua a execução após este bloco de instruções. Vamos criar um programa com uma condicional simples usando o `if / else` (se /então). O programa vai receber um número do usuário e vai multiplicar por 2 se o número for maior que 7 ou dividir por 2 se for menor ou igual. Vamos lá.
 
