@@ -255,4 +255,4 @@ void main(void) {
 
 Veja que agora temos uma condicional dentro do `case` da divisão e o bloco só irá ser executado ser o divisor for diferente de 0. Note que usei um `break` dentro da condicional também.
 
-Na próxima aula entraremos em um novo assunto que são as estruturas de repetição. Em programação, essas estruturas são formas eficientes de executar tarefas repetidas vezes com algumas linhas de código.
+Na próxima aula entraremos em um novo assunto que são as estruturas de repetição. Em programação, essas estruturas são formas eficientes de executar tarefas repetidas vezes utilizando algumas linhas de código.
