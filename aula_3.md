@@ -165,7 +165,7 @@ Esta é a sintaxe básica:
 A figura abaixo exemplifica como o *switch/case* funciona:
 
 
-![switch/case](https://www.programtopia.net/sites/default/files/switch.png)
+![switch/case](http://143.107.196.146:3000/switch_case1.png)
 
 Ou seja, a partir do valor de uma variável, o programa irá executar uma de cada possibilidade (case). Vamos montar esta estrutura dentro da calculadora. Assim, o usuário pode definir qual o tipo de cálculo ele quer realizar.
 
