@@ -66,7 +66,7 @@ Veja que podemos combinar variáveis como operadores lógicos e relacionais para
 
 O teste **if** compara uma condição e desvia o fluxo conforme a condição seja **V** ou **F**. Veja a figura abaixo:
 
-![If statement C](https://cdn.programiz.com/sites/tutorial2program/files/flowchart-if-programming_0.jpg)
+![If statement C](http://143.107.196.146:3000/if_statement1.png)
 
 A seta define a direção do fluxo do programa. Existe um teste que verifica se uma condição é **V** ou **F**. Se **V**, um bloco de código inserido na estrutura da condicional é executado. Caso contrário, o programa desvia o fluxo e e continua a execução após este bloco de instruções. Vamos criar um programa com uma condicional simples usando o `if / else` (se /então). O programa vai receber um número do usuário e vai multiplicar por 2 se o número for maior que 7 ou dividir por 2 se for menor ou igual. Vamos lá.
 
@@ -165,7 +165,7 @@ Esta é a sintaxe básica:
 A figura abaixo exemplifica como o *switch/case* funciona:
 
 
-![switch/case](https://www.programtopia.net/sites/default/files/switch.png)
+![switch/case](http://143.107.196.146:3000/switch_case1.png)
 
 Ou seja, a partir do valor de uma variável, o programa irá executar uma de cada possibilidade (case). Vamos montar esta estrutura dentro da calculadora. Assim, o usuário pode definir qual o tipo de cálculo ele quer realizar.
 
@@ -255,4 +255,4 @@ void main(void) {
 
 Veja que agora temos uma condicional dentro do `case` da divisão e o bloco só irá ser executado ser o divisor for diferente de 0. Note que usei um `break` dentro da condicional também.
 
-Na próxima aula entraremos em um novo assunto que são as estruturas de repetição. Em programação, essas estruturas são formas eficientes de executar tarefas repetidas vezes com algumas linhas de código.
+Na próxima aula entraremos em um novo assunto que são as estruturas de repetição. Em programação, essas estruturas são formas eficientes de executar tarefas repetidas vezes utilizando algumas linhas de código.
