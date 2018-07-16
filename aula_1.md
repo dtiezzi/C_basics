@@ -211,4 +211,4 @@ Assim deve ser o nosso primeiro programa:
 	
 Se você chegou até aqui:
 	
-**PARABENS!** Você acaba de escrever seu primeiro *software*
+**PARABENS!** Você acaba de escrever seu primeiro programa de computador.
