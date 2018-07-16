@@ -6,16 +6,16 @@ A proposta deste curso é fornecer noções básicas de programação para pesso
 
 O compilador é um *software* que interpreta a linguagem de programação, que nós humanos compreendemos (ou iremos compreender) e transforma ela em linguagem de computador. Como existem diversas linguagens de programação, é necessário diversos compiladores para compreender cada uma das linguagens. Em C, iremos utilizar o compilador denominado gcc, que interpreta a linguagem em C.
 
-## O que é um programa de computador ou *software*?
+## O que é um programa de computador?
 
-*Software* pode ser definido como uma sequência de instruções escritas em linguagem de programação e que tem o objetivo de executar tarefas específicas.
+Um programa de computador pode ser definido como uma sequência de instruções escritas em linguagem de programação e que tem o objetivo de executar tarefas específicas.
 
-Desta forma, qualquer pedaço de código que possa ser interpretado por um computador e que execute uma tarefa é por definição um *software*.
+Desta forma, qualquer pedaço de código que possa ser interpretado por um computador e que execute uma tarefa é por definição um programa.
 
 
-### Escrevendo seu primeiro *software*
+### Escrevendo seu primeiro código
 
-Para começarmos, você precisa de duas ferramentas em seu computador para escrever o seu *software* em C e executá-lo:
+Para começarmos, você precisa de duas ferramentas em seu computador para escrever o seu programa em C e executá-lo:
 
 * Um terminal de comando. Abra uma janela do Terminal. O terminal é uma interface de comunicação entre o usuário (você) e seu computador. Nele, você precisa escrever códigos em linguagem de programação para que o computador entenda o seu comando e execute alguma tarefa. No linux vc pode abrir uma janela do terminal pressionando as teclas `Ctr` + `Alt` + `T`.
 *  Um editor de texto. Pode ser qualquer editor. No entanto, iremos utilizar um editor que será acessado diretamente do Terminal e que é chamado `nano`.
