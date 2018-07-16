@@ -115,6 +115,6 @@ Agora ele está pronto para rodar. Use o comando `gcc -o calculadora.out calcula
 	A divisão de 3.00 / 4.00 eh: 0.75
 	A soma de 3.00 + 4.00 eh: 12.00
  
-Aqui temos uma coisa nova. Veja o `.2` entre o `%` e o `f` para a formatação do *float*. Este `.2` quer dizer ao computador para mostrar até duas casas decimais. Experimente aumentar ou mesmo omitir este valor. Você verá que o número de casas decimais irão aumentar no ser resultado. A outra questão aqui é, por que não usar o *int*? Lembre-se que se usarmos uma variável inteira, a divisão também será um número inteiro. Tente experimentar.
+Aqui temos uma coisa nova. Veja o `.2` entre o `%` e o `f` para a formatação do *float*. Este `.2` quer dizer ao computador para mostrar até duas casas decimais. Experimente aumentar ou mesmo omitir este valor. Você verá que o número de casas decimais mudar. A outra questão aqui é, por que não usar o *int*? Lembre-se que se usarmos uma variável inteira, a divisão também será um número inteiro. Tente experimentar.
 
 Bem, chegamos ao fim desta aula. **PARABÉNS!** Na próxima aula iremos aprender sobre controle de fluxo.
