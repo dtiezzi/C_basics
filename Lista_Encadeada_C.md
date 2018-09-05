@@ -3,7 +3,7 @@
 ## Daniel Tiezzi
 
 
-Uma lista encadeada é uma estrutura linear e dinâmica composta por "células" que apontam para o próximo elemento da lista. Ela tem uma grande vantagem que é a alocação dinâmica de memória. Desta forma, a lista encadeada pode alocar dados até que haja espaço na meméria principal automaticamente.
+Uma lista encadeada é uma estrutura linear e dinâmica composta por "células" que apontam para o próximo elemento da lista. Ela tem uma grande vantagem que é a alocação dinâmica de memória. Desta forma, a lista encadeada pode alocar dados até que haja espaço na memória principal automaticamente.
 
 ###Estrutura da lista encadeada:
 
@@ -13,7 +13,7 @@ A lista encadeada consiste de 3 estruturas básicas que estão interligadas entr
 > 
 > **Estrutura de indexação da estrutura de dados:** esta estrutura é a base do encadeamento da lista onde temos uma estrutura que guarda o endereço de memória (ponteiro) da próxima estrutura. Vamos denominar de `Link`;
 > 
-> **Estrura da lista:** ela guarda a informação do tamanho da lista encadeada e faz a sua indexação. Vamos denominar esta estrutura de `Lista`.
+> **Estrutura da lista:** ela guarda a informação do tamanho da lista encadeada e faz a sua indexação. Vamos denominar esta estrutura de `Lista`.
 
 <br/>
 Desta forma, vamos começar implementando as três estruturas em C para guardar endereços de pessoas:
@@ -35,14 +35,14 @@ typedef struct link {
 //cria a estrutura Lista
 typedef struct lista {
 	int tam; // faz a indexação dos elementos na lista
-	Link* head; // ponteiro para a última estutura da lista
+	Link* head; // ponteiro para a última estrutura da lista
 } Lista;
 ```
 <br/>
 
 A Figura abaixo resume a estrutura da de nossa lista encadeada:
 
-![listaencadeada](http://143.107.196.146:3000/listaEncadeada.png)
+![listaencadeada](/Users/dtiezzi/C_Scripts/listaEncadeada.png)
 <br/>
 
 Nós agoras iremos implementar três funções básicas para a criação de nossa lista encadeada:
@@ -51,7 +51,7 @@ Nós agoras iremos implementar três funções básicas para a criação de noss
 >
 >Insere a estrutura de dados na lista: esta função 'alimenta a lista com os dados. Iremos denominar de função `push`;
 >
->Imprime os dados da lista: esta fução mostrará na tela os dados que estão 'guardados' na lista. Iremos denominar de `imprimeLista`.
+>Imprime os dados da lista: esta função mostrará na tela os dados que estão 'guardados' na lista. Iremos denominar de `imprimeLista`.
 
 <br/>
 
@@ -79,7 +79,7 @@ void push(Lista* lista, DataBase data) {
 	Link* link = (Link*)malloc(sizeof(Link));
 	
 	link->data = data;
-	link->next = lista->head; // passa o endetreço do next para o topo da lista
+	link->next = lista->head; // passa o endereço do next para o topo da lista
 	lista->head = link; // passa o endereço do top da lista para o próximo link
 	lista->tam++; // incrementa o tamanho da lista
 	
@@ -94,7 +94,7 @@ void imprimeLista(Lista* lista) {
 	if (ponteiro == NULL) // se a lista for vazia 
 		printf("A lista está vazia!\n");
 	
-	while (ponteiro) { // enquento o ponteiro não for NULL
+	while (ponteiro) { // enquanto o ponteiro não for NULL
 		printf("Nome: %s\n", ponteiro->data.nome);
 		printf("Rua %s, %d\n", ponteiro->data.rua, ponteiro->data.numero);
 		printf("\n==============================\n");
