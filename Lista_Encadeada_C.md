@@ -5,7 +5,7 @@
 
 Uma lista encadeada é uma estrutura linear e dinâmica composta por "células" que apontam para o próximo elemento da lista. Ela tem uma grande vantagem que é a alocação dinâmica de memória. Desta forma, a lista encadeada pode alocar dados até que haja espaço na memória principal automaticamente.
 
-###Estrutura da lista encadeada:
+ ###Estrutura da lista encadeada:
 
 A lista encadeada consiste de 3 estruturas básicas que estão interligadas entre si:
 
@@ -42,7 +42,7 @@ typedef struct lista {
 
 A Figura abaixo resume a estrutura da de nossa lista encadeada:
 
-![listaencadeada](/Users/dtiezzi/C_Scripts/listaEncadeada.png)
+![listaencadeada](http://143.107.196.146:3000/listaEncadeada.png)
 <br/>
 
 Nós agoras iremos implementar três funções básicas para a criação de nossa lista encadeada:
