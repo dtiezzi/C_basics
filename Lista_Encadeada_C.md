@@ -42,7 +42,7 @@ typedef struct lista {
 
 A Figura abaixo resume a estrutura da de nossa lista encadeada:
 
-![listaencadeada](/Users/dtiezzi/C_Scripts/listaEncadeada.png)
+![listaencadeada](http://143.107.196.146:3000/listaEncadeada.png)
 <br/>
 
 Nós agoras iremos implementar três funções básicas para a criação de nossa lista encadeada:
