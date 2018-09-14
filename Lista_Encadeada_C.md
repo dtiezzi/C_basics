@@ -35,7 +35,7 @@ typedef struct link {
 //cria a estrutura Lista
 typedef struct lista {
 	int tam; // faz a indexação dos elementos na lista
-	Link* head; // ponteiro para a última estrutura da lista
+	Link* head; // ponteiro para a primeira estrutura da lista
 } Lista;
 ```
 <br/>
