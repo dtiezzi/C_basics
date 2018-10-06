@@ -1,4 +1,4 @@
-# Lista encadeadas
+# Listas encadeadas
 
 ## Daniel Tiezzi
 
