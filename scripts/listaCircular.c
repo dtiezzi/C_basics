@@ -161,7 +161,6 @@ Lista* remover(Lista **ini) {
                 } else {
                     pre->prox = aux->prox;
                     free(aux);
-                    //printf("\nDeseja remover o RA %d?\n", aux->prox->RA);
                 }
             }
         }
