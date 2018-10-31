@@ -138,9 +138,7 @@ Lista* remover(Lista **ini) {
             printf("\nO único registro no banco é o RA: %d.\n", (*ini)->RA);
             printf("Tem ceteza que deseja remove-lo?\nDigite 1 para SIM ou 0 para nao.");
             scanf(" %c", &op);
-            if (op == '0') {
-                exit(0);
-            } else {
+            if (op == '1') {
                 Lista *aux = *ini;
                 free(aux);
                 *ini = NULL;
