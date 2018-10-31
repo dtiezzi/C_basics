@@ -13,7 +13,7 @@ void inserir(Lista **ini);
 void listar(Lista *ini);
 void consultar(Lista *ini);
 Lista* localizar(Lista *ini, int v);
-Lista* remover(Lista **ini);
+void remover(Lista **ini);
 
 void main(void) {
 
@@ -128,7 +128,7 @@ Lista* localizar(Lista *ini, int v) {
         return NULL;
 }
 
-Lista* remover(Lista **ini) {
+void remover(Lista **ini) {
 
     if (*ini == NULL)
         printf("\nNao há registros no arquivo!\n");
