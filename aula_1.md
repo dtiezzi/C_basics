@@ -120,7 +120,7 @@ Para o Carlos:
 void main {
 	vá até a mina;
 	desça até o fundo da mina;
-	cave até achar outro;
+	cave até achar ouro;
 	volte para o escritório;
 }
 ~~~
@@ -131,7 +131,7 @@ Para o Antonio:
 ouro main {
 	vá até a mina;
 	desça até o fundo da mina;
-	cave até achar outro;
+	cave até achar ouro;
 	volte para o escritório;
 	retorne com o ouro;
 }
